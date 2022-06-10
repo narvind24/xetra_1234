@@ -11,6 +11,15 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "xetra_etl_run",
+            "type": "python",
+            "python.pythonPath": "C:/Users/User/.virtualenvs/xetra_1234-GPGW7Ds0/Scripts/python.exe",
+            "request": "launch",
+            "program": "C:/Users/User/xetra_project/xetra_1234/run.py",
+            "console": "integratedTerminal",
+            "args": ["C:/Users/User/xetra_project/xetra_1234/configs/xetra_report1_config.yaml"]
         }
     ]
 }
